@@ -1,0 +1,12 @@
+{
+  "name": "ab-test-example",
+  "version": "1.0.0",
+  "description": "AB Test Examples",
+  "author": "newsuk",
+  "scripts": {
+    "build": "node ./build"
+  },
+  "devDependencies": {
+    "ab-test-framework": "0.2.0"
+  }
+}

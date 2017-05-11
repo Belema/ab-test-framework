@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "framework": true
+    },
+
+    "analytics": {
+        "error": "banana_split_$_error",
+        "prefix": null,
+        "separator": "-",
+        "variable": "banana_split_$"
+    },
+
+    "storage": {
+        "key": "banana_split"
+    }
+}

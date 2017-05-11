@@ -1,0 +1,24 @@
+body {
+  background-color: #F5EFEB;
+  font-family: "Gill Sans Regular";
+}
+@media only screen and (min-width: 940px) {
+  #main {
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+div.content {
+   padding: 1rem;
+}
+@media only screen and (min-width: 640px) {
+  div.content .intro {
+     float: left;
+     width: 35%;
+  }
+}
+@media only screen and (min-width: 767px) {
+  #Submit {
+    width: 425px;
+  }
+}

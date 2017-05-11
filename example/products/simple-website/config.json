@@ -1,0 +1,10 @@
+{
+    "product": {
+        "code": "S"
+    },
+
+    "environments": {
+        "staging": {},
+        "prod": {}
+    }
+}

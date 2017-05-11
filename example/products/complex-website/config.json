@@ -1,0 +1,16 @@
+{
+    "product": {
+        "code": "C"
+    },
+
+    "environments": {
+        "uat": {
+            "code": "uat_code",
+            "domain": ".uat-complexwebsite.com"
+        },
+        "prod": {
+            "code": "prod_code",
+            "domain": ".complexwebsite.com"
+        }
+    }
+}

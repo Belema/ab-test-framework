@@ -1,0 +1,27 @@
+{
+    "env": {
+        "node": true,
+        "browser": false,
+        "es6": true
+    },
+    "globals": {
+        "EXPERIMENT_ENTRY_FILE": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1, "MemberExpression": "off" }],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "semi": ["error", "always"],
+        "strict": ["error", "global"],
+        "curly": ["error"],
+        "eqeqeq": ["error"],
+        "no-eval": "error",
+        "no-console": 0,
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "block-scoped-var": "error",
+        "no-use-before-define": ["error", { "functions": false }],
+        "max-params": ["error", 5],
+        "max-statements": ["error", 25, { "ignoreTopLevelFunctions": true }],
+        "complexity": ["error", 10]
+    }
+}
